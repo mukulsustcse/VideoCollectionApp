@@ -11,6 +11,9 @@ class VideoModels: ObservableObject {
     
     @Published var model = [Models]()
     
+    @Published var getVideoUrl: Models?
+    var videoUrl = ""
+    
     init() {
         
         getJsonData()
@@ -46,6 +49,14 @@ class VideoModels: ObservableObject {
                 
                 print(error)
             }
+        }
+    }
+    
+    func retrieveVideoUrl() {
+        
+        for i in 0..<model.count {
+            
+            videoUrl = model[i].url
         }
     }
 }

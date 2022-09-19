@@ -14,6 +14,7 @@
 		1C05B58E28D903AD00A277C0 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C05B58D28D903AD00A277C0 /* Data.json */; };
 		1C05B59028D90A6B00A277C0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05B58F28D90A6B00A277C0 /* Models.swift */; };
 		1C05B59228D90AF500A277C0 /* VideoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05B59128D90AF500A277C0 /* VideoModels.swift */; };
+		1C05B59428D9104900A277C0 /* VideoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05B59328D9104900A277C0 /* VideoPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1C05B58D28D903AD00A277C0 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Data.json; path = "../../../../../iOS Foundation course resources/Module 5/Wrap Up Challenge/Data.json"; sourceTree = "<group>"; };
 		1C05B58F28D90A6B00A277C0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		1C05B59128D90AF500A277C0 /* VideoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModels.swift; sourceTree = "<group>"; };
+		1C05B59328D9104900A277C0 /* VideoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				1C05B57D28D9034400A277C0 /* ContentView.swift */,
+				1C05B59328D9104900A277C0 /* VideoPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				1C05B59028D90A6B00A277C0 /* Models.swift in Sources */,
 				1C05B57E28D9034400A277C0 /* ContentView.swift in Sources */,
+				1C05B59428D9104900A277C0 /* VideoPage.swift in Sources */,
 				1C05B57C28D9034400A277C0 /* VideoCollectionApp.swift in Sources */,
 				1C05B59228D90AF500A277C0 /* VideoModels.swift in Sources */,
 			);

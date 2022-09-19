@@ -21,6 +21,8 @@ struct ContentView: View {
                     
                     NavigationLink(destination: {
                         
+                        VideoPage(link: item.url, heading: item.title)
+                        
                     }, label: {
                         
                         Text(item.title)
@@ -30,13 +32,14 @@ struct ContentView: View {
                 }
                 .navigationTitle("Video Collection")
             }
+            .navigationViewStyle(.stack)
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//
+//    }
+//}
