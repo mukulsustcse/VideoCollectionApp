@@ -12,6 +12,7 @@ struct VideoCollectionApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(VideoModels())
         }
     }
 }
