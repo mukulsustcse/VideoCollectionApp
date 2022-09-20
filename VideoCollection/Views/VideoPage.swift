@@ -13,6 +13,8 @@ struct VideoPage: View {
     @EnvironmentObject var base_model:VideoModels
     let videoRatio: CGFloat = 1080 / 1920
     
+    @Environment(\.dismiss) private var dismiss
+    
     let link:String
     let heading:String
     
@@ -35,9 +37,13 @@ struct VideoPage: View {
                         .frame(height: geo.size.width * videoRatio)
                 }
             }
+            .onDisappear() {
+                dismiss()
+            }
         }
         else {
             Text("Failed")
         }
     }
+        
 }

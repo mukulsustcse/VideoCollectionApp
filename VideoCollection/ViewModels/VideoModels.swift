@@ -12,7 +12,6 @@ class VideoModels: ObservableObject {
     @Published var model = [Models]()
     
     @Published var getVideoUrl: Models?
-    var videoUrl = ""
     
     init() {
         
